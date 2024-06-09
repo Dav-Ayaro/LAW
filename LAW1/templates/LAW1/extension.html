@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ACHAPA LAW FIRM </title>
+    <link rel="stylesheet" href="{% static 'LAW1/css/all.css' %}">
+    <link rel="stylesheet" href="{% static 'LAW1/fa/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'LAW1/fa/css/all.css' %}">
+    <link rel="stylesheet" href="{% static 'LAW1/fa/css/regular.css' %}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main_extension">
+        <video autoplay muted loop id="bgVideo">
+            <source src="{% static 'LAW1/videos/pexels4.mp4' %}" type="video/mp4">
+        </video>
+        <div class="extension_wrapper">
+            <section>
+                <div class="law_law"> <img src="{% static 'LAW1/images/law3.jpg' %}" alt="prosperBridge_logo"> </div>
+                <!-- <div class="consultation"> Book a Consultation </div> -->
+            </section>
+            <div class="min_extension">
+            <div> <a href="{% url 'about_us_page' %}">About Us</a> </div>
+            <div> <a href="{% url 'our_lawyers' %}">Our Lawyers</a> </div>
+            <div> <a href="{% url 'service_page' %}">Services</a> </div>
+            <div> <a href="{% url 'why_us' %}">Why Us</a> </div>
+            <div> <a href="{% url 'contact_page' %}">Contact Us</a> </div>
+            </div>
+        </div>
+    </div>
+
+    {% block body %}
+        <!-- <h1> hello my name is vado </h1> -->
+    {% endblock %}
+
+    <footer>
+        <div class="main_footer">
+            <div class="footer_wrapper">
+                <div class="law_firm_logo"> <img src="{% static 'LAW1/images/law3.jpg' %}" alt="law-firm_logo"> </div>
+                <div class="law_firm_company">
+                    <h1> COMPANY </h1>
+                    <div> <a href="{% url 'about_us_page' %}">About Us</a> </div>
+                    <div> <a href="{% url 'service_page' %}">Our Lawyers</a> </div>
+                    <div> <a href="{% url 'service_page' %}">Services</a> </div>
+                </div>
+                <div class="quick_links">
+                    <h1> QUICK LINKS </h1>
+                    <div> <span>FAQs</span>  </div>
+                    <div> <span>Terms & Agreements</span> </div>
+                    <div> <span>Pricing</span> </div>
+                </div>
+                <div class="law_firm_contacts">
+                    <h1>CONTACTS</h1>
+                    <div> <span>info@examples.com</span> </div>
+                    <div> <span>info@examples.com</span> </div>
+                    <div> <span>T-Mall, Nairobi</span> </div>
+                </div>
+            </div>
+            <div class="min_footer">
+                <p>Copyrights&copy; Achapa Associates 2024  </p>
+                <a href="https://www.daveayaro.com" target="_blank"> <b>The Dots Technology</b> </a> 
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

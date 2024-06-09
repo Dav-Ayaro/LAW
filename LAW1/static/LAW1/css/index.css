@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  flex-direction: column;
+  height: auto;
+}
+
+.main_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main_container .min_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: url(../images/law1.jpg) no-repeat;
+  background-position: center 30%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.main_container .min_container section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 90%;
+  margin: auto;
+  background-color: rgba(34, 33, 33, 0.623);
+}
+.main_container .min_container section div.law_law img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.main_container .min_container section div.consultation {
+  color: white;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.397);
+  padding: 15px;
+}
+.main_container .min_container .link_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-top: 1px solid rgb(107, 106, 106);
+}
+.main_container .min_container .link_wrapper .all_links {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(143, 142, 142);
+}
+.main_container .min_container .link_wrapper .all_links div {
+  border-bottom: 1px solid rgb(142, 142, 142);
+  padding: 10px;
+}
+.main_container .min_container .link_wrapper .all_links div a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+.main_container .min_container .link_wrapper .min_contact {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.main_container .min_container .link_wrapper .min_contact .call_us, .main_container .min_container .link_wrapper .min_contact .email {
+  color: white;
+  font-weight: bold;
+}
+.main_container .law_products {
+  padding: 20px;
+  margin-top: 50px;
+}
+.main_container .law_products .our_producst {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+}
+.main_container .law_products .our_producst .better {
+  width: 80%;
+  color: rgb(247, 150, 5);
+  margin-bottom: 10px;
+}
+.main_container .law_products .our_producst .better span {
+  padding: 5px;
+  background-color: rgb(247, 150, 5);
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 10px;
+}
+.main_container .law_products .our_producst .better span a {
+  text-decoration: none;
+  color: white;
+}
+.main_container .law_products .our_producst .Loan {
+  background: white;
+  color: rgb(247, 150, 5);
+  font-weight: bold;
+  padding: 10px;
+  height: 130px;
+  width: 25%;
+}/*# sourceMappingURL=index.css.map */

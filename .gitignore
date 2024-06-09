@@ -1,0 +1,7 @@
+LAW/__pycache__
+LAW1/migrations
+LAW1/__pycache__/
+*.sqlite3
+*.code-workspace
+media
+.env
